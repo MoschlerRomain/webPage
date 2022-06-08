@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "AmaticSC";
+    src: url(../CONTENU/AmaticSC-Bold.ttf);
+}
+
+body{
+    background-color: #2C2C2C ;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    justify-content: space-between;
+    align-self: center;
+}
+
+h2 a{
+    text-decoration: none;
+    color: white;
+    font-family: "AmaticSC";
+    width: 25%;
+    height: 25%;
+    font-size: 100px;
+}
+
+h2 a:hover{
+    color: #F7DC6F;
+}
