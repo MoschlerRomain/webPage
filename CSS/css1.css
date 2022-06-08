@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "AmaticSC";
+    src: url(../CONTENU/AmaticSC-Bold.ttf);
+}
+
+.text{
+    height: 200px;
+     width:45%;
+    font-size: 35px;
+    font-family: AmaticSC;
+}
+
+body{
+    background-color: lightgrey;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header{
+    border-bottom: solid 1px black;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#profil{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black
+}
+
+#pp{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+ #profil p{
+    padding-left: 270px;
+ }
+
+ #drawing{
+     display: flex;
+     flex-direction: column;
+ }
+
+ #drawing img{
+     width: 500px;
+     height: 500px;
+     border:  solid red 3px;;
+     
+ }
+
+ ul{
+    list-style-type: none;
+ }
+
+ #drawing ul{
+     display: flex;
+     flex-direction: column;
+ }
+
+ #drawing li:nth-child(2) {
+     align-self: flex-end;
+ }
+
+ figure {
+     display: flex;
+     flex-direction:row;
+     align-items: center;
+ }
+
+figcaption{
+    margin-left: 20px;
+}
+
+.figreverse{
+    flex-direction: row-reverse;
+}
+
+#footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+
+ link{
+    border: solid 1px black;
+    text-decoration: none;
+    margin: 3px 3px 3px 3px;
+}
+
+.link:hover{
+    background-color: grey;
+    border-radius: 2px;
+}
